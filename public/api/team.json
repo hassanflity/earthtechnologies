@@ -1,0 +1,49 @@
+{
+  "title": "Our Team",
+  "management": [
+    {
+      "id": "pers01",
+      "name": "Mr. George Khoury",
+      "position": "CEO",
+      "image": "demo/pers.png"
+    },
+    {
+      "id": "pers02",
+      "name": "Mr. George Abboud",
+      "position": "COO",
+      "image": "demo/pers.png"
+    },
+    {
+      "id": "pers03",
+      "name": "Mr. Duvlingo",
+      "position": "MVP",
+      "image": "demo/pers.png"
+    }
+  ],
+  "list": [
+    {
+      "id": "pers04",
+      "name": "John Doe",
+      "position": "Technical Manager",
+      "image": "demo/pers.png"
+    },
+    {
+      "id": "pers05",
+      "name": "Ralph Alman",
+      "position": "Electronics Engineer",
+      "image": "demo/pers.png"
+    },
+    {
+      "id": "pers06",
+      "name": "James Robin",
+      "position": "Technician",
+      "image": "demo/pers.png"
+    },
+    {
+      "id": "pers07",
+      "name": "Fadi El Hakim",
+      "position": "Charbel's Friend",
+      "image": "demo/pers.png"
+    }
+  ]
+}

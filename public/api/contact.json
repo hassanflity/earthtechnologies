@@ -1,0 +1,18 @@
+{
+  "address": "Address: 4th Floor, CCI Building, Main Street, <br> Antelias, El Metn, Lebanon",
+  "email": "info@earthtechnologies.com",
+  "telephone": "+961 4 444 961",
+  "map": "/Earth-with-pins.svg",
+  "countries": [
+    { "id": "LBN", "name": "Lebanon" },
+    { "id": "KSA", "name": "Saudi Arabia" },
+    { "id": "IRQ", "name": "Iraq" },
+    { "id": "CIV", "name": "Ivory Coast" },
+    { "id": "NGA", "name": "Nigeria" },
+    { "id": "RWA", "name": "Rwanda" },
+    { "id": "CMR", "name": "Cameroon" },
+    { "id": "ZMB", "name": "Zambia" },
+    { "id": "BFA", "name": "Burkina Faso" },
+    { "id": "MLI", "name": "Mali" }
+  ]
+}

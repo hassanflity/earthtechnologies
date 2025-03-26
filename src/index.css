@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-align: justify;
+}
+
+:root .dark-theme {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-align: justify;
+}
+
+a {
+  color: #ddb548;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #b98c12;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  height: 100vh;
+}
+
+#root {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+section {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ddb548;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #ddb548;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.flex {
+  display: flex;
+}
+.flex.jc-c {
+  justify-content: center;
+}
+.flex.jc-sb {
+  justify-content: space-between;
+}
+.flex.jc-sa {
+  justify-content: space-around;
+}
+.flex.ai-c {
+  align-items: center;
+}
+.flex.fd-c {
+  flex-direction: column;
+}
+.flex.fw-w {
+  flex-wrap: wrap;
+}
+
+.flex.gap-10 {
+  gap: 10px;
+}
+
+.fg-2 {
+  flex-grow: 2;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  outline: none;
+  background: #99a4ae;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+}
+
+.person {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  border: 2px solid #99a4ae;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+textarea {
+  padding: 10px;
+  height: 100px;
+}
+
+button {
+  background-color: #ddb548;
+  width: 40%;
+}
+
+.react-multiple-carousel__arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #99a4ae;
+  color: #fff;
+  font-weight: 900;
+  font-size: 2vw;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  position: fixed;
+  left: 0;
+  top: 130px;
+  z-index: 100;
+}
+
+.subtitle {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    font-size: 13px;
+  }
+
+  .main-title {
+    font-size: 4vw;
+    top: 100px;
+  }
+}

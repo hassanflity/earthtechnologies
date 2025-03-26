@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "id": "about01",
+      "thumb": "demo/building.jpg",
+      "title": "COMPANY OVERVIEW",
+      "desc": "Earth Technologies, a pioneering renewable energy company, was established in Lebanon in 2010 with a strong commitment to sustainable solutions and environmental stewardship. Through its innovative approach and dedication to excellence, Earth Technologies has successfully positioned itself as a leader in the renewable energy sector."
+    },
+    {
+      "id": "about02",
+      "thumb": "demo/spinneys.jpg",
+      "title": "PROJECT LOCATIONS",
+      "desc": "Since its inception, Earth Technologies has experienced significant growth and expansion. In 2013, the company strategically extended its operations to Africa, seizing opportunities in emerging markets to make a lasting impact on the continent's energy landscape. Leveraging its expertise and proven track record, Earth Technologies has undertaken a series of successful projects in Lebanon, Zambia, Iraq, Saudi Arabia, Cameroon, Rwanda, Ivory Coast, Nigeria and others."
+    },
+    {
+      "id": "about03",
+      "thumb": "demo/hangars.jpg",
+      "title": "COMMUNITY IMPACT",
+      "desc": "Earth Technologies has implemented cutting-edge renewable energy initiatives that have reduced carbon footprints and supported sustainable development. Recognized for impactful work in Zambia, Cameroon, Ivory Coast, and Nigeria, the company enhances energy access and fosters economic growth. <br><br>With a diverse project portfolio and a dedicated team, Earth Technologies is driving progress in the renewable energy sector, creating a cleaner future for communities across the Middle East and Africa. Committed to excellence and sustainability, the company is set for continued success."
+    },
+    {
+      "id": "about04",
+      "thumb": "demo/building.jpg",
+      "title": "COMPANY TRACK RECORD",
+      "desc": "The company's proven track record includes hundreds of successfully delivered sites, for complex projects in remote locations across the Middle East and Africa, showcasing its expertise in overcoming logistical challenges and implementing high-impact renewable energy solutions."
+    },
+    {
+      "id": "about05",
+      "thumb": "demo/spinneys.jpg",
+      "title": "COMPANY PARTNERS & CUSTOMERS",
+      "desc": "The customer database of Earth Technologies includes United Nations agencies such as UNDP, UNHCR, UNIFIL, and UNOPS, in addition to publicly listed companies, as well as hospitals, schools, and municipalities."
+    },
+    {
+      "id": "about06",
+      "thumb": "demo/hangars.jpg",
+      "title": "COMPANY PHILOSOPHY",
+      "desc": "The philosophy at Earth Technologies is one of inclusion and diversity. The company's strategy to empower the local communities and knowledge transfer are core principles that Earth Technologies' management encourage for every new market entry."
+    }
+  ]
+}

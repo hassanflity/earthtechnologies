@@ -1,0 +1,440 @@
+{
+  "title": "Our Projects",
+  "list": [
+    {
+      "id": "ref-0",
+      "imgSrc": "demo/projects/p1.jpg",
+      "title": "Zambia",
+
+      "desc": [
+        {
+          "id": "p00-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p00-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p00-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-1",
+      "imgSrc": "demo/projects/p2.jpg",
+      "title": "Hospital",
+
+      "desc": [
+        {
+          "id": "p01-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p01-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p01-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        },
+        {
+          "id": "img04",
+          "imgSrc": "demo/projects/p4.jpg",
+          "desc": "Image 4 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-2",
+      "imgSrc": "demo/projects/p3.jpg",
+      "title": "Title new",
+
+      "desc": [
+        {
+          "id": "p02-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p02-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p02-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        },
+        {
+          "id": "img04",
+          "imgSrc": "demo/projects/p4.jpg",
+          "desc": "Image 4 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-3",
+      "imgSrc": "demo/projects/p1.jpg",
+      "title": "Tanmiya",
+
+      "desc": [
+        {
+          "id": "p03-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p03-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p03-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-4",
+      "imgSrc": "demo/projects/p1.jpg",
+      "title": "Zambia",
+
+      "desc": [
+        {
+          "id": "p04-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p04-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p04-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-5",
+      "imgSrc": "demo/projects/p2.jpg",
+      "title": "Hospital",
+
+      "desc": [
+        {
+          "id": "p05-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p05-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p05-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        },
+        {
+          "id": "img04",
+          "imgSrc": "demo/projects/p4.jpg",
+          "desc": "Image 4 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-6",
+      "imgSrc": "demo/projects/p3.jpg",
+      "title": "Title new",
+
+      "desc": [
+        {
+          "id": "p06-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p06-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p06-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        },
+        {
+          "id": "img04",
+          "imgSrc": "demo/projects/p4.jpg",
+          "desc": "Image 4 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-8",
+      "imgSrc": "demo/projects/p1.jpg",
+      "title": "Tanmiya",
+
+      "desc": [
+        {
+          "id": "p08-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p08-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p08-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-9",
+      "imgSrc": "demo/projects/p1.jpg",
+      "title": "Zambia",
+
+      "desc": [
+        {
+          "id": "p09-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p09-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p09-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        }
+      ]
+    },
+    {
+      "id": "ref-10",
+      "imgSrc": "demo/projects/p2.jpg",
+      "title": "Hospital",
+
+      "desc": [
+        {
+          "id": "p10-d01",
+          "title": "power",
+          "value": "182 Kwp"
+        },
+        {
+          "id": "p10-d02",
+          "title": "materials",
+          "value": "ALUMINUM RAILS ON GALVANIZED STEEL STRUCTURE"
+        },
+        {
+          "id": "p10-d03",
+          "title": "category",
+          "value": "ON GRID"
+        }
+      ],
+
+      "gallery": [
+        {
+          "id": "img01",
+          "imgSrc": "demo/projects/p1.jpg",
+          "desc": "Image 1 description"
+        },
+        {
+          "id": "img02",
+          "imgSrc": "demo/projects/p2.jpg",
+          "desc": "Image 2 description"
+        },
+        {
+          "id": "img03",
+          "imgSrc": "demo/projects/p3.jpg",
+          "desc": "Image 3 description"
+        },
+        {
+          "id": "img04",
+          "imgSrc": "demo/projects/p4.jpg",
+          "desc": "Image 4 description"
+        }
+      ]
+    }
+  ]
+}

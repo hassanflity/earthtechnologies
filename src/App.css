@@ -1,0 +1,145 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.contact-btn {
+  position: fixed;
+  z-index: 99999;
+  left: 20px;
+  bottom: 20px;
+  background: #ddb548;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.contact-btn > a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.contact-btn .contact-msg {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 50px;
+  width: 100px;
+  text-align: left;
+  transform: rotate(-90deg);
+}
+
+.contact-btn .contact-msg {
+  color: #333;
+}
+
+.dark-theme .contact-btn .contact-msg {
+  color: #fff;
+}
+
+.contact-btn.white .contact-msg {
+  color: #fff !important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-logo {
+  width: 20%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.main-container {
+  padding-top: 170px;
+}
+
+.inner-section {
+  padding: 50px 10vw 0;
+}
+
+@media screen and (max-width: 920px) {
+  .main-logo {
+    width: 30%;
+  }
+
+  .main-container {
+    padding-top: 130px;
+  }
+
+  .contact-btn {
+    display: none !important;
+  }
+
+  .desktop-switcher {
+    display: none;
+  }
+
+  .inner-section {
+    padding: 50px 10vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main-logo {
+    width: 50%;
+  }
+
+  .inner-section {
+    padding: 30px;
+  }
+}
+
+.filter {
+    font-size: 1vw;
+    position: relative;
+    padding: 0 1vw;
+}
+
+.project-item {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-item.fade-in {
+  opacity: 1;
+}
+
+.filter.active {
+  font-weight: bold;
+  color: blue;
+}

@@ -1,0 +1,33 @@
+{
+  "id": "our-service",
+  "title": "Our Services",
+  "view": {
+    "services": [
+      {
+        "id": "epc-solar-power-plants",
+        "title": "EPC for Solar Power Plants",
+        "desc": "From initial design to commissioning, plant integration, and O&M, our team of experts provides turnkey solutions for solar power plants of any size, on any terrain. Our clients have the benefit of our experience in design, construction, and ongoing maintenance."
+      },
+      {
+        "id": "project-development",
+        "title": "Project Development",
+        "desc": "Our project development services focus on developing renewable energy assets from scratch. We provide end-to-end solutions from location selection to commissioning and provide continued monitoring and maintenance."
+      },
+      {
+        "id": "consultancy-services",
+        "title": "Consultancy Services",
+        "desc": "We offer consultancy services to government agencies, companies and clients willing to expand in the renewable energy sector. We provide feasibility studies, technical advice, and financial analysis among other services."
+      },
+      {
+        "id": "energy-efficiency",
+        "title": "Energy Efficiency",
+        "desc": "Using state-of-the-art technology, we identify and implement improvements to reduce energy consumption for our clients, adding value to their bottom line."
+      },
+      {
+        "id": "energy-transition",
+        "title": "Energy Transition",
+        "desc": "We help our clients transition from traditional sources of energy to renewable ones, providing advice, implementing change strategies and monitoring the transition."
+      }
+    ]
+  }
+}

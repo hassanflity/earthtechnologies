@@ -1,0 +1,11 @@
+export { default as Logo } from './icons/logo';
+export { default as LogoIcon } from './icons/logoIcon';
+export { default as FbIcon } from './icons/fb';
+export { default as InIcon } from './icons/in';
+export { default as InstaIcon } from './icons/insta';
+export { default as YouTubeIcon } from './icons/youtube';
+export { default as MobIcon } from './icons/mob';
+export { default as MailIcon } from './icons/mail';
+export { default as BackIcon } from './icons/back';
+export { default as NextIcon } from './icons/next';
+export { default as CloseIcon } from './icons/close';

@@ -1,0 +1,84 @@
+.projects-page {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.projects-section {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+  padding-left: calc(10vw - 12px);
+  padding-right: calc(10vw - 12px);
+}
+
+.projects-section > div {
+  width: 25%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.projects-section > div a {
+  display: block;
+  position: relative;
+}
+
+.projects-section > div img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+}
+
+.projects-section > div .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 1.2em;
+  transition: all 0.5s ease;
+  border-radius: 0 0 15px 15px;
+}
+
+.dark-theme .projects-section > div .title {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.projects-section > div:hover .title,
+.dark-theme .projects-section > div:hover .title {
+  color: #ddb548;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media screen and (max-width: 720px) {
+  .projects-section {
+    gap: 0;
+    padding: 60px 0 0 0;
+  }
+  .projects-section > div {
+    width: 46%;
+  }
+
+  .projects-section > div img {
+    aspect-ratio: 16 / 9;
+    border-radius: 15px;
+  }
+
+  .projects-section > div .title {
+    padding: 10px 20px;
+    font-weight: 900;
+    border-radius: 0 0 15px 15px;
+    font-size: 3vw;
+  }
+}

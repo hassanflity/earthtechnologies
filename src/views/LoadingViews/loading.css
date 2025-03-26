@@ -1,0 +1,195 @@
+.loading-component{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.loading-component .el {
+    background: #ebebeb;
+    position: relative;
+    overflow: hidden;
+}
+
+.loading-component .el:before {
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 0;
+    animation: mymove 3s infinite;
+    content: '';
+}
+
+@keyframes mymove {
+    0% {
+        left: 0;
+        width: 0;
+    }
+
+    50% {
+        left: 0;
+        width: 100%;
+    }
+
+    51% {
+        right: 0;
+        left: auto;
+        width: 100%;
+    }
+
+    100% {
+        right: 0;
+        left: auto;
+        width: 0%;
+    }
+}
+
+.loading-component .title {
+    height: 25px;
+}
+
+.loading-component .text {
+    height: 10px;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+/* THESE ARE SHARE STYLES */
+
+.flex {
+    display: flex;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.dir-col {
+    flex-direction: column;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.br-1 {
+    border-radius: 1px;
+}
+
+.br-2 {
+    border-radius: 2px;
+}
+
+.br-3 {
+    border-radius: 3px;
+}
+
+.br-4 {
+    border-radius: 4px;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.br-6 {
+    border-radius: 6px;
+}
+
+.br-7 {
+    border-radius: 7px;
+}
+
+.br-8 {
+    border-radius: 8px;
+}
+
+.br-9 {
+    border-radius: 9px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-11 {
+    border-radius: 11px;
+}
+
+.br-12 {
+    border-radius: 12px;
+}
+
+.br-13 {
+    border-radius: 13px;
+}
+
+.br-14 {
+    border-radius: 14px;
+}
+
+.br-15 {
+    border-radius: 15px;
+}

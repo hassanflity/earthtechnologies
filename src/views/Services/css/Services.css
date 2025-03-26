@@ -1,0 +1,162 @@
+.services-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.services-title {
+  width: 100%;
+  padding: 10px 0 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 20vh 10vw 0;
+  margin: auto;
+}
+
+.services > div {
+  width: 20%;
+  padding: 20px 2vw;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.services .subtitle {
+  font-size: 1vw;
+  width: 100%;
+  margin-top: 8vw;
+}
+
+.ddl {
+  display: none;
+  opacity: 0;
+  transition: all 0.8s;
+  width: 30vw;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.ddl.active {
+  opacity: 1;
+}
+
+.main-service {
+  position: relative;
+}
+
+/* .main-service:first-child .ddl {
+  left: 0;
+  transform: translateX(0);
+}
+
+.main-service:last-child .ddl {
+  right: 0;
+  left: auto;
+  transform: translateX(0);
+} */
+
+button.empty-btn {
+  background: none;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+button.empty-btn span:before,
+.dark-theme button.empty-btn span:before {
+  color: #435464; /* Default color */
+}
+
+button.empty-btn.active span:before,
+button.empty-btn:hover span:before,
+.dark-theme button.empty-btn.active span:before,
+.dark-theme button.empty-btn:hover span:before {
+  color: #ddb548; /* Active and hover color */
+}
+
+button.empty-btn span {
+  font-size: 8vw;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+}
+
+.dark-theme button.empty-btn {
+  color: #fff;
+}
+
+.ddl {
+  display: none;
+}
+
+.ddl.active {
+  display: block;
+}
+
+@media screen and (max-width: 960px) {
+  .services {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+
+  .services > div {
+    width: 100% !important;
+    padding: 0 5vw;
+  }
+
+  .services .subtitle {
+    font-size: 3vw;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .main-service .ddl {
+    display: block;
+    position: relative;
+    opacity: 1;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .main-service:first-child .ddl,
+  .main-service:last-child .ddl,
+  .main-service .ddl {
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .services {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+  .services > div {
+    width: 100% !important;
+    padding: 0 5vw;
+  }
+
+  .main-service span[class^='icon-'] {
+    font-size: 26vw;
+  }
+}
