@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './css/project-details.css';
-import { etGet } from '../../../utils/blfetch';
+import { etGet } from '../../../../utils/blfetch';
 import Modal from 'react-modal';
 import { NavLink } from 'react-router-dom';
-import { BackIcon, NextIcon, CloseIcon } from '../../../components/icons';
+import { BackIcon, NextIcon, CloseIcon } from '../../../../components/icons';
 import { Helmet } from 'react-helmet';
-
 
 interface Project {
   id: string;
@@ -71,7 +70,7 @@ const ProjectDetails = () => {
     if (currentImageIndex !== null && project?.gallery) {
       setCurrentImageIndex(
         (currentImageIndex - 1 + project.gallery.length) %
-        project.gallery.length
+          project.gallery.length
       );
     }
   };
@@ -132,9 +131,9 @@ const ProjectDetails = () => {
     <>
       <Helmet>
         <title>{project?.title}</title>
-        <meta name="title" content={project?.meta_title} />
-        <meta name="description" content={project?.meta_description} />
-        <meta name="keywords" content={project?.meta_keywords} />
+        <meta name='title' content={project?.meta_title} />
+        <meta name='description' content={project?.meta_description} />
+        <meta name='keywords' content={project?.meta_keywords} />
       </Helmet>
       <div className='main-container'>
         {project ? (
@@ -152,9 +151,10 @@ const ProjectDetails = () => {
               </div>
             </div>
 
-            <div className='project-desc' dangerouslySetInnerHTML={{ __html: project.description }}>
-
-            </div>
+            <div
+              className='project-desc'
+              dangerouslySetInnerHTML={{ __html: project.description }}
+            ></div>
 
             <div className='inner-section project-gallery'>
               {project.gallery ? (
@@ -203,7 +203,7 @@ const ProjectDetails = () => {
         ) : (
           <></>
         )}
-      </div >
+      </div>
     </>
   );
 };
