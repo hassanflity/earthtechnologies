@@ -9,7 +9,10 @@ const Menu = lazy(() => import('./navigation/Menu'));
 const Home = lazy(() => import('./views/Home'));
 const About = lazy(() => import('./views/About'));
 const Services = lazy(() => import('./views/Services'));
-const ProjectDetails = lazy(() => import('./views/Projects/[id]/index'));
+const ProjectDetails = lazy(
+  () => import('./views/Projects/[categ]/[id]/index')
+);
+const ProjectList = lazy(() => import('./views/Projects/[categ]/index'));
 const Projects = lazy(() => import('./views/Projects'));
 // const Team = lazy(() => import('./views/Team'));
 const Contact = lazy(() => import('./views/Contact'));
@@ -41,7 +44,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/projects/:id' element={<ProjectDetails />} />{' '}
+          <Route path='/projects/:categ' element={<ProjectList />} />{' '}
+          <Route path='/projects/:categ/:id' element={<ProjectDetails />} />{' '}
           {/* This should come before the catch-all route */}
           {/* <Route path='/team' element={<Team />} /> */}
           <Route path='/contact' element={<Contact />} />
